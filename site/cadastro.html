@@ -1,0 +1,52 @@
+<html lang="pt-br" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Cadastro - Artem</title>      <!-- -->
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <link rel="stylesheet" href="css/cadastro/corpo.css">
+  <link rel="stylesheet" href="css/link.css">
+  <link rel="stylesheet" href="css/font.css">
+  <link rel="stylesheet" href="css/button.css">
+  <link rel="stylesheet" href="css/screen.css">
+</head>
+<body>
+    <h2>Cadastro</h2>
+    <h3>Por favor preencha os campos abaixo</h3>
+    <form action="" method="post">
+        <!-- Nome  -->
+        <input type="text" name="nome" placeholder="Nome de Usuario">
+        <br><br>
+        
+        <!-- Especialidades -->
+        <label>Especialidade</label><br>
+        <select name="especialidade">
+            <option selected>Músico</option>
+            <option>Dançarino</option>
+            <option>Pintor</option>
+        </select>
+        <br><br>
+    
+        <!-- E-mail -->
+        <input type="email" name="email" placeholder="Email">
+        <br><br>
+    
+        <!-- Senha -->
+        <input type="password" name="senha" placeholder="Senha">
+        <input type="password" name="confirmSenha" placeholder="Confirme a senha">
+        
+        <br><br>
+        
+        <input type="checkbox">Concordo com os <a>termos de uso</a>.
+        
+        <br><br>
+        
+        <input class="btn large blue" type="submit">
+    </form>
+  
+  <script src="js/abrirTelas.js"></script>
+  
+</body>
+</html>
