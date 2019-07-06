@@ -1,0 +1,25 @@
+.btnBox {
+  display: flex;
+  justify-content: center;
+}
+.btn {
+  height: 40px;
+  width: auto;
+  border-radius: 7px;
+  border-spacing: 1px;
+  color: white;
+}
+
+.large {
+  font-size: 20px;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.blue {
+  background-color: #2196f3;
+  border-color: inherit;
+  border-color:  #42a5f5 #2196f3 #2196f3 #42a5f5;
+}
