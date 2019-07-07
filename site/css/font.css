@@ -9,11 +9,6 @@ h1 {
   color: rgb(120,120,120);
 }
 
-h2, h3, h4, h5, label {
- color: rgb(120,120,120);
- margin: 0;
-}
-
 .textBlue {
 	color: blue;
 }

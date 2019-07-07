@@ -1,0 +1,26 @@
+input, select {
+   height: 27px;	
+   margin: 1px;
+   border: 0.5px solid rgba(21, 41, 40, 0.89);
+   border-radius: 2.5px;
+   padding-left: 6px;
+   font-size: 13pt;
+   color: rgba(21, 41, 40, 0.89);
+}
+
+select {
+	background-color: white;
+}
+
+.inputGrande {
+   width: 502px;
+}
+
+.inputMedio {
+	width: 248px;
+}
+
+.checkbox {
+	height: 25px;
+	width: 25px;
+}
