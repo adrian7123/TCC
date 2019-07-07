@@ -1,11 +1,10 @@
 * {
   font-family: Helvetica, Sans-serif;
   outline: 0;
-  color: white;
 }
 
 body {
-  background-color: #152928;
+ 
 
   display: flex;
   flex-direction: column;
@@ -13,7 +12,7 @@ body {
 }
 
 header {
-  height: 60px;
+  height: 80px;
   width: 100%;
   /*background-color: rgba(69, 138, 121, 0.7);*/
   display: flex;

@@ -6,45 +6,89 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   
-  <link rel="stylesheet" href="css/cadastro/corpo.css">
+  <link rel="stylesheet" href="css/corpo.css">
   <link rel="stylesheet" href="css/link.css">
   <link rel="stylesheet" href="css/font.css">
   <link rel="stylesheet" href="css/button.css">
   <link rel="stylesheet" href="css/screen.css">
+  <link rel="stylesheet" href="css/cadastro/corpo.css">
 </head>
 <body>
-    <h2>Cadastro</h2>
-    <h3>Por favor preencha os campos abaixo</h3>
-    <form action="" method="post">
-        <!-- Nome  -->
-        <input type="text" name="nome" placeholder="Nome de Usuario">
-        <br><br>
-        
-        <!-- Especialidades -->
-        <label>Especialidade</label><br>
-        <select name="especialidade">
-            <option selected>Músico</option>
-            <option>Dançarino</option>
-            <option>Pintor</option>
-        </select>
-        <br><br>
+    <section class="main">
+	<header>
+    	<div>
+        	<img class="icon a" src="icon/music.png">
+        	<h1>Artem</h1>
+        	<img class="icon b" src="icon/music.png">
+        	<img class="icon c" src="icon/music.png">
+           	<img class="icon d" src="icon/music.png">
+    	</div>
+    	
+    	<div class="linkBox">
+    	    <div></div>
+        	<a  href="login.html">Entrar</a>
+    	</div>	
+    </header>
+	
     
-        <!-- E-mail -->
-        <input type="email" name="email" placeholder="Email">
-        <br><br>
+    <div class="container">
+    	<h1>Cadastro</h1>
+    	<h3>Por favor preencha os campos abaixo</h3>
+    	
+    	<br>
+    	
+    	<form action="" method="post">
+    		<!-- Nome  -->
+    		<input class="inputGrande" type="text" name="nome" placeholder="Nome de Usuario">
+   		 	<br><br>
+    	
+   		 	<!-- Especialidades -->
+    		<label>Especialidade</label><br>
+    		<select class="inputGrande" name="especialidade">
+        		<option selected>Músico</option>
+      		   	<option>Dançarino</option>
+       		 	<option>Pintor</option>
+    		</select>
+   		 	<br><br>
+    	
+    		<!-- E-mail -->
+    		<input class="inputGrande" type="email" name="email" placeholder="Email">
+    		<br><br>
+    	
+    		<!-- Senha -->
+    		<input class="inputMedio" type="password" name="senha" placeholder="Senha">
+    		<input class="inputMedio" type="password" name="confirmSenha" placeholder="Confirme a senha">
+    	
+    		<br><br>
+    	
+    		<input type="checkbox">Concordo com os <a class="textBlue">termos de uso</a>.
+    	
+    		<br><br>
+    	
+    		<input class="btn largeY blue" type="submit" value="Cadastrar">
+   		  </form>
     
-        <!-- Senha -->
-        <input type="password" name="senha" placeholder="Senha">
-        <input type="password" name="confirmSenha" placeholder="Confirme a senha">
-        
-        <br><br>
-        
-        <input type="checkbox">Concordo com os <a>termos de uso</a>.
-        
-        <br><br>
-        
-        <input class="btn large blue" type="submit">
-    </form>
+   		 </div>
+    </section>
+    
+    <footer>
+    <div>
+  	 	<h1>Artem</h1>
+   		<img class="icon e" src="icon/music.png">
+    	</div>
+    
+    
+  	    <div class="hr"></div>
+    
+    	<div class="subFooter">
+   	 		<div class="footerIcon">
+    			<a class="icon" href=""><img src="icon/headset.png"><p>Sobre Nós</p></a>
+    			<a class="icon" href=""><img src="icon/wallet.png"><p>Segurança</p></a>
+   				<a class="icon" href=""><img src="icon/newspaper.png"><p>Contratos</p></a>
+    			<a class="icon" href=""><img src="icon/chat.png"><p>Contatos</p></a>
+   		    </div>
+   	  </div>
+    </footer>
   
   <script src="js/abrirTelas.js"></script>
   

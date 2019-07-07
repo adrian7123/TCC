@@ -6,9 +6,14 @@ h1 {
   margin: 15px;
   font-weight: bold;
   font-size: 30pt;
- color: rgb(120,120,120);
+  color: rgb(120,120,120);
 }
 
 h2, h3, h4, h5, label {
  color: rgb(120,120,120);
+ margin: 0;
+}
+
+.textBlue {
+	color: blue;
 }

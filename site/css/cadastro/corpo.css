@@ -1,0 +1,15 @@
+section {
+    margin: -8px;
+}
+
+body {
+	background-color: #152928;
+}
+
+header {
+	background-color: rgba(21, 41, 40, 0.89);
+}
+
+.main {
+    background: white;
+}
