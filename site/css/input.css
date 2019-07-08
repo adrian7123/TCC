@@ -8,6 +8,10 @@ input, select {
    color: rgba(21, 41, 40, 0.89);
 }
 
+Label {
+	font-size: 13pt;
+}
+
 select {
 	background-color: white;
 }

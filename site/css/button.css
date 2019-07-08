@@ -28,3 +28,7 @@
   border-color: inherit;
   border-color:  #42a5f5 #2196f3 #2196f3 #42a5f5;
 }
+
+.blue:active {
+	background-color: #007dda;
+}

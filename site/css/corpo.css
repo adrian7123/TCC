@@ -10,7 +10,8 @@ body {
 }
 
 .header {
-  height: 60px;
+  padding-top: 10px;
+  height: 50px;
   width: 100%;
   /*background-color: rgba(69, 138, 121, 0.7);*/
   display: flex;
