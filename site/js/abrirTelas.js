@@ -1,1 +1,4 @@
-console.log('Tudo Tranquilo');
+function abrirMain() {
+	window.location.href = "main.html";
+
+}
