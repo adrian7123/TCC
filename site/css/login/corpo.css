@@ -1,5 +1,6 @@
 section {
     margin: -8px;
+    min-height: auto;
 }
 
 body {
@@ -20,9 +21,8 @@ h2, h3, h4, h5, label {
 
 .container {
 	width: 90%;
-	height: auto;
 	margin: 0 auto;
 	display: grid;
 	justify-content: center;
-	
+	/*border: 2px solid black;*/
 }
