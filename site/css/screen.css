@@ -21,16 +21,20 @@
     position: absolute;
     visibility: hidden;
   }
+  
+  .btn {
+  	margin-left: 83px;
+  }
+  
 }
 
 @media screen and (max-width: 540px) {
   .b {
     position: absolute;
-    visibility: hidden;
+    top: 13px;
+    left: 60px
+    
   }
-}
-
-@media screen and (max-width: 540px) {
   .a {
     position: absolute;
     visibility: hidden;
@@ -39,13 +43,25 @@
 
 /*  MOBILE  */
 
-@media screen and (max-width: 500px) {
-  header a{
-    font-size: 17px;
+@media screen and (max-width: 540px) {
+	* {
+	/*border: 2px solid white; */
+	}
+	
+  header {
+  	height: 60px;
+  
   }
-  .container h2{
-    text-align: center;
-    margin-left: 15px;
+  
+  .linkBox {
+  	position: absolute;
+  	left: 70px;
+  	top: -2px;
+  	height: 30px;
+  	width: 160px;
+  }
+  .linkBox a {
+  	position:relative;
   }
   .footerIcon {
     display: block;
@@ -59,8 +75,73 @@
     height: 100px;
     width: 100px;
   }
+  
+  .inputMedio, .inputGrande, select {
+  	max-width: 300px;
+  	width: 280px;
+  	
+  }
+  
+  #confirmSenha {
+  	margin-top: 20px;
+  }
+  
+  .senhaBox {
+	  display: flex;
+	  flex-wrap: wrap;
+	  /*border: 2px solid black;*/
+	  width: 300;
+  }
+  
+  .hr {
+  	width: 95%;
+  }
+  
+  
 }
 
+/*.     FORMATACAO DA FONTE */
+
+@media screen and (max-width: 500px) {
+
+	header a{
+		font-size: 12pt;
+		position:absolute;
+		top: 30px;
+		left: 80%;
+	}
+	
+	form {
+		max-width: 280px;
+	}
+
+	h1 {
+		font-size: 20pt;
+		margin: 10px;
+	}
+	
+	.container {
+		margin-left:-35px;
+	}
+	
+	.container h2 {
+		text-align: center;
+		width: 100%;
+	}
+	
+	h3 {
+		font-size: 12pt;
+	}
+	
+	footer h1 {
+		margin: 15px;
+	}
+	
+	label {
+		font-size: 13px;
+	
+	}
 
 
+}
 

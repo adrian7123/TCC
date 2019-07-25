@@ -1,26 +1,27 @@
-section {
-    margin: -8px;
-}
-
 body {
 	background-color: #152928;
-}
-
-header {
-	background-color: rgba(21, 41, 40, 0.89);
-	height: 75px;
-}
-
-.main {
-    background: white;
-}
-h2, h3, h4, h5, label {
- color: rgb(120,120,120);
- margin: 0;
 }
 
 .container {
 	width: 90%;
 	height: auto;
 	margin: 0 auto;
+}
+section {
+    margin: -8px;
+    min-height: auto;
+    background-color: #fff;
+}
+
+section h2, h3, h4, h5, label {
+ color: rgb(120,120,120);
+ margin: 0;
+}
+
+.btn {
+  	 margin-left: 253px;
+}
+  	
+input[type="checkbox"] {
+	margin-left: 5px;
 }

@@ -1,26 +1,3 @@
-section {
-    margin: -8px;
-}
-
 body {
 	background-color: #152928;
-}
-
-header {
-	background-color: rgba(21, 41, 40, 0.89);
-	height: 75px;
-}
-
-.main {
-    background: white;
-}
-h2, h3, h4, h5, label {
- color: rgb(120,120,120);
- margin: 0;
-}
-
-.container {
-	width: 90%;
-	height: auto;
-	margin: 0 auto;
 }

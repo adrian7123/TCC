@@ -3,32 +3,24 @@
   <meta charset="utf-8">
   <title>Cadastro - Artem</title>      <!-- -->
   
+  <meta name="theme-color" content="#152928">
+  <meta name="apple-mobile-web-app-status-bar-style" content="#152928">
+  <meta name="msapplication-navbutton-color" content="#152928">
+  
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   
-  <link rel="stylesheet" href="css/corpo.css">
-  <link rel="stylesheet" href="css/link.css">
-  <link rel="stylesheet" href="css/font.css">
-  <link rel="stylesheet" href="css/button.css">
-  <link rel="stylesheet" href="css/screen.css">
-  <link rel="stylesheet" href="css/input.css">
+
+  <link rel="stylesheet" href="css/estilo.css">
   <link rel="stylesheet" href="css/cadastro/corpo.css">
   
-  <style type="text/css">
-  	.btn {
-  		margin-left: 253px;
-  	}
-  	
-  	input[type="checkbox"] {
-  		margin-left: 5px;
-  	}
+    <link rel="stylesheet" href="css/screen.css"  >
   
-  </style>
+  
+  
 </head>
 <body>
-    <section class="main">
 	<header>
-		<div class="header" >
     	<div>
         	<img class="icon a" src="icon/music.png">
         	<h1>Artem</h1>
@@ -41,10 +33,10 @@
     	    <div></div>
         	<a  href="login.html">Entrar</a>
     	</div>	
-    	</div>
+    	
     </header>
 	
-    
+    <section class="main" >
     <div class="container">
     	<h1>Cadastro</h1>
     	<h3>Por favor preencha os campos abaixo</h3>
@@ -70,10 +62,13 @@
     		<br><br>
     	
     		<!-- Senha -->
-    		<input class="inputMedio" type="password" name="senha" placeholder="Senha">
-    		<input class="inputMedio" type="password" name="confirmSenha" placeholder="Confirme a senha">
+    		<div class="senhaBox" >
+    			<input class="inputMedio" type="password" name="senha" placeholder="Senha">
+    		
+    			<input id="confirmSenha"  class="inputMedio" type="password" name="confirmSenha" placeholder="Confirme a senha">
+    		</div>
     	
-    		<br><br>
+    		<br>
     	
     		<label><input name="termo"  type="checkbox"> Concordo com os <a class="textBlue">termos de uso</a><strong>.</strong></label>
     	
@@ -94,7 +89,7 @@
     	</div>
     
     
-  	    <div class="hr"></div>
+  	    <hr>
     
     	<div class="subFooter">
    	 		<div class="footerIcon">
@@ -106,7 +101,8 @@
    	  </div>
     </footer>
   
-  <script src="js/abrirTelas.js" ></script>
+  <script type="text/javascript" src="js/abrirTelas.js" ></script>
+  <script type="text/javascript" src="js/TELA.js"></script>
   
 </body>
 </html>

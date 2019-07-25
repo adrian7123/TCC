@@ -1,0 +1,8 @@
+div .evento {
+	background-color: #fff;
+	border-radius: 0.5px;
+	min-height: 75px;
+	width: 100%;
+	margin: auto 0;
+	margin-top: 25px;
+}

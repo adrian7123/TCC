@@ -1,0 +1,245 @@
+/*.  RESETS. */
+
+* {
+	font-family: Helvetica, Sans-serif;
+	outline: 0;
+	color: white;
+	/*border: 2px solid white;*/
+	
+}
+
+/*. HEADER */
+
+header *{
+	/*border: 2px solid white;*/
+}
+
+header {
+  padding-top: 10px;
+  height: 60px;
+  width: 100%;
+  /*background-color: rgba(69, 138, 121, 0.7);*/
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 18px;
+}
+
+header a {
+  font-size: 17pt;
+}
+
+header .icon, footer .icon {
+  margin: 0 30px;
+}
+
+header div, footer div {
+  display: flex;
+ 
+}
+
+/*. CORPO */
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+}
+
+.container {
+  height: 390px;
+  /* border: 2px solid white; */
+  margin: 3px auto;
+  width: 98%;
+  display: grid;
+  align-items: center;
+}
+
+.container h2 {
+  text-align: justify;
+  margin-left: 40px;
+
+}
+
+hr {
+  /*position: absolute;*/
+  width: 98%;
+  height: 0.7px;
+  background-color: white;
+  margin: 0 auto;
+}
+
+/*. LINK */
+
+.linkBox {
+  /*border: 2px solid white;*/
+  width: 270px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-right: 10px;
+}
+
+a:hover {
+  color: #2196f3;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+/*. FONT */
+
+h1 {
+  margin: 15px;
+  font-weight: bold;
+  font-size: 30pt;
+  color: rgb(120,120,120);
+}
+
+.textBlue {
+	color: #2196f3;
+}
+
+
+/*. BUTTON */
+
+.btnBox {
+  display: flex;
+  justify-content: center;
+}
+.btn {
+  height: 40px;
+  width: auto;
+  border-radius: 5.4px;
+  border-spacing: 1px;
+  color: white;
+}
+
+.large {
+	width: 250px;
+	font-size: 22px;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.blue {
+  background-color: #2196f3;
+  border-color: inherit;
+  border-color:  #42a5f5 #2196f3 #2196f3 #42a5f5;
+}
+
+.blue:active {
+	background-color: #007dda;
+}
+
+
+/*. FOOTER */
+
+footer h1 {
+	margin-left: 13px;
+}
+
+.footerIcon {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footerIcon a {
+  text-align: center;
+}
+
+/* icones */
+
+.a {
+  transform: rotate(-30deg);
+}
+
+.b {
+  transform: rotate(15deg) translateX(15px);
+  height: 35px;
+  
+}
+
+
+.c {
+  transform: rotate(-30deg) translateY(15px);
+  height: 44px;
+}
+
+.d {
+  transform: rotate(-160deg);
+  height: 44px;
+}
+
+.e {
+  transform: rotate(15deg) translateY(20px);
+  height: 35px;
+}
+
+/*. INPUT */
+
+input, select {
+   height: 27px;	
+   margin: 1px;
+   border: 0.5px solid rgba(21, 41, 40, 0.89);
+   border-radius: 2.5px;
+   padding-left: 6px;
+   font-size: 13pt;
+   color: rgba(21, 41, 40, 0.89);
+}
+
+Label {
+	font-size: 13pt;
+}
+
+select {
+	background-color: white;
+}
+
+.inputGrande {
+   width: 502px;
+}
+
+.inputMedio {
+	width: 248px;
+}
+
+input[type="checkbox"]{
+	margin: 0;
+	border-radius: 0;
+	padding: 0;
+	border: none;
+	position:relative;
+	top: 0;
+	width: 20px;
+	height: 20px;
+	-webkit-appearance: none;
+	
+}
+
+input[type="checkbox"]:before {
+	content: '';
+	position:absolute;
+	top: 1px;
+	left: -3px;
+	width: 100%;
+	height: 100%;
+	border: 2px solid rgba(21, 41, 40, 0.89);
+	box-sizing:border-box;
+	transition: 0.3s;
+}
+
+input:checked[type="checkbox"]:before {
+	border-left: none;
+	border-top: none;
+	width: 11.4px;
+	border-color: #2196f3;
+	transform: rotate(45deg) translate(2px, -5px);
+
+}
