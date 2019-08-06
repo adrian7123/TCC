@@ -1,13 +1,7 @@
-<!-- <?php
-    if($_POST['freelancer']){
-    
-    }
-    else if($_POST['empregador']){
-    
-    }
+<?php
+	include "php/conexao.php";
 
-
-?> -->
+?>
 
 <!DOCTYPE html>
 <html>

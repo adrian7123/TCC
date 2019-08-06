@@ -1,0 +1,65 @@
+.contrato * {
+//	border: 2px solid black;
+}
+
+.contrato {
+	background-color: #fff;
+	border-radius: 3px;
+	min-height: 75px;
+	max-height: 3000px;
+	width: 99%;
+	padding: 10px;
+	margin: auto 0;
+	margin-top: 25px;
+
+}
+
+.contrato:hover {
+	background-color: #bbb;
+	transition: .2s;
+}
+
+
+.contHeader {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	
+	//border: 2px solid black;
+	
+}
+
+.contCenter {
+	margin-top: 10;
+	padding-left: 10px;
+	padding-bottom: 15px;
+}
+
+.contFooter {
+	display:flex;
+	justify-content: flex-end;
+}
+
+/*. FONT. */
+
+.contQuem {
+	font-style: italic;
+}
+
+.contData {
+	font-size: 15pt;
+	font-weight: bold;
+	margin-right: 20px;
+}
+
+.contrato h1 {
+	margin:0;
+	color: #000;
+	font-weight: bold;
+}
+
+.contrato h2, H3, h4, p{
+	margin:0;
+	color: #000;
+	font-weight: normal;
+}

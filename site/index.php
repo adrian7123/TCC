@@ -1,3 +1,7 @@
+<?php
+	include "php/conexao.php";
+
+?>
 <!DOCTYPE html>
 <html lang="pt-br" dir="ltr">
 <head>
@@ -12,25 +16,18 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
    
     <link rel="stylesheet" href="css/estilo.css" >
-    <link rel="stylesheet" href="css/index/corpo.css">
     <link rel="stylesheet" href="css/screen.css"  >
-
+	    <link rel="stylesheet" href="css/index/corpo.css">
     
     <style type="text/css">
-    	* {
-    		color: white;
     	
-   		}
-    	}
-    	footer h1 {
-    		margin-left: 13px;
-    	}
     
     </style>    
 </head>
 <body>
+	<section>
     <header>
-      <div>
+      <div class="header" >
       <img class="icon a" src="icon/music.png">
       <h1>Artem</h1>
       <img class="icon b" src="icon/music.png">
@@ -39,13 +36,13 @@
       </div>
 
       <div class="linkBox">
-        <a  href="cadastro.html">Cadastre-se</a>
-        <a  href="login.html">Entrar</a>
+        <a  href="cadastro.php">Cadastre-se</a>
+        <a  href="login.php">Entrar</a>
       </div>
 
 
     </header>
-
+    
       <div class="container">
 
         <h2>
@@ -57,7 +54,9 @@
           <button onclick="abrirMain()" class="btn large blue" type="button" name="button">Publique um Contrato</button>
         </div>
 
-      </div> <!-- FIM CONTAINER -->
+      </div>
+    </section>
+      
 
     <footer>
       <div>
@@ -67,6 +66,7 @@
       
 
       <hr>
+      
 
       <div class="subFooter">
         <div class="footerIcon">

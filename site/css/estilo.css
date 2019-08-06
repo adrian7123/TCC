@@ -8,6 +8,11 @@
 	
 }
 
+/*.  warning   */
+.war {
+	color: #e11;
+}
+
 /*. HEADER */
 
 header *{
@@ -15,9 +20,9 @@ header *{
 }
 
 header {
-  padding-top: 10px;
-  height: 60px;
+  margin-top: -10px;
   width: 100%;
+  height: 55px;
   /*background-color: rgba(69, 138, 121, 0.7);*/
   display: flex;
   justify-content: space-between;
@@ -43,15 +48,30 @@ body {
   display: flex;
   flex-direction: column;
   align-items: space-between;
+  background-color: #152928;
+  
+  max-width: 1200px;
+  margin: 7px auto;
+  
+}
+
+section {
+    margin: -8px;
+    min-height: auto;
+    background-color: #fff;
 }
 
 .container {
-  height: 390px;
+  height: 340px;
   /* border: 2px solid white; */
   margin: 3px auto;
   width: 98%;
   display: grid;
   align-items: center;
+}
+
+.container form {
+	width: 98%;
 }
 
 .container h2 {
@@ -63,6 +83,7 @@ body {
 hr {
   /*position: absolute;*/
   width: 98%;
+  padding-right:5px;
   height: 0.7px;
   background-color: white;
   margin: 0 auto;
@@ -73,7 +94,7 @@ hr {
 .linkBox {
   /*border: 2px solid white;*/
   width: 270px;
-  height: 80px;
+  height: 75px;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -95,11 +116,18 @@ h1 {
   margin: 15px;
   font-weight: bold;
   font-size: 30pt;
-  color: rgb(120,120,120);
 }
 
 .textBlue {
 	color: #2196f3;
+}
+
+.gray {
+	color: rgb(120, 120, 120);
+}
+
+.small {
+	font-size: 12pt;
 }
 
 
@@ -139,6 +167,10 @@ h1 {
 
 /*. FOOTER */
 
+footer {
+	
+}
+
 footer h1 {
 	margin-left: 13px;
 }
@@ -158,6 +190,7 @@ footer h1 {
 
 .a {
   transform: rotate(-30deg);
+  height: 50px;
 }
 
 .b {
@@ -191,15 +224,15 @@ input, select {
    border-radius: 2.5px;
    padding-left: 6px;
    font-size: 13pt;
-   color: rgba(21, 41, 40, 0.89);
-}
-
-Label {
-	font-size: 13pt;
+   color: #000;
 }
 
 select {
 	background-color: white;
+}
+
+select label {
+	color: #000;
 }
 
 .inputGrande {
@@ -241,5 +274,11 @@ input:checked[type="checkbox"]:before {
 	width: 11.4px;
 	border-color: #2196f3;
 	transform: rotate(45deg) translate(2px, -5px);
+
+}
+
+/* BOX */
+
+.box {
 
 }

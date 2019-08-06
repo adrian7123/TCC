@@ -1,3 +1,12 @@
+<?php
+//	include "php/conexao.php";
+	
+	//. VARIAVEIS 
+
+	
+	
+
+?>
 <html lang="pt-br" dir="ltr">
 <head>
   <meta charset="utf-8">
@@ -12,11 +21,9 @@
   
 
   <link rel="stylesheet" href="css/estilo.css">
-  <link rel="stylesheet" href="css/cadastro/corpo.css">
-  
-    <link rel="stylesheet" href="css/screen.css"  >
-  
-  
+  <link rel="stylesheet" href="css/cadastro/corpo.css"> 
+  <link rel="stylesheet" href="css/screen.css"  >
+
   
 </head>
 <body>
@@ -31,22 +38,23 @@
     	
     	<div class="linkBox">
     	    <div></div>
-        	<a  href="login.html">Entrar</a>
+        	<a  href="login.php">Entrar</a>
     	</div>	
     	
     </header>
 	
     <section class="main" >
     <div class="container">
-    	<h1>Cadastro</h1>
+    	<h1 class="gray" >Cadastro</h1>
     	<h3>Por favor preencha os campos abaixo</h3>
     	
     	<br>
     	
-    	<form action="" method="post">
+    	<form action="" method="post" onsubmit="return valida()" >
     		<!-- Nome  -->
-    		<input class="inputGrande" type="text" name="nome" placeholder="Nome de Usuario">
-   		 	<br><br>
+    		<input id="userNome"  class="inputGrande" type="text" name="nome" placeholder="Nome de Usuario">
+    	<br><label id="nomes"  class="war " >Por favor informe o nome* </label>
+   		 	<br>
     	
    		 	<!-- Especialidades -->
     		<label>Especialidade</label><br>
@@ -58,23 +66,25 @@
    		 	<br><br>
     	
     		<!-- E-mail -->
-    		<input class="inputGrande" type="email" name="email" placeholder="Email">
-    		<br><br>
+    		<input id="userEmail" class="inputGrande" type="email" name="email" placeholder="Email">
+    		<br><label id="emails"  class="war " >Por favor informe o E-mail* </label>
+    		<br>
     	
     		<!-- Senha -->
     		<div class="senhaBox" >
-    			<input class="inputMedio" type="password" name="senha" placeholder="Senha">
+    			<input id="userSenha"  class="inputMedio" type="password" name="senha" placeholder="Senha">
     		
-    			<input id="confirmSenha"  class="inputMedio" type="password" name="confirmSenha" placeholder="Confirme a senha">
+    			<input id="userConfirmSenha"  class="inputMedio" type="password" name="confirmSenha" placeholder="Confirme a senha">
+    		<br><label id="senhas"  class="war " >Dados incorretos</label>
     		</div>
+    		
     	
-    		<br>
     	
-    		<label><input name="termo"  type="checkbox"> Concordo com os <a class="textBlue">termos de uso</a><strong>.</strong></label>
-    	
+    		<label><input id="userTermo" name="termo"  type="checkbox"> Concordo com os </label> <a class="textBlue" href="Index.html" >termos de uso</a>.
+    		<br><label id="termos" class="war " >Confirme os termos de uso para poder avançar</label>
     		<br><br>
     	
-    		<input class="btn largeY blue" type="submit" value="Cadastrar">
+    		<input class="btn large blue" type="submit" value="Cadastrar">
    		  	
    		  </form>
     
@@ -101,8 +111,10 @@
    	  </div>
     </footer>
   
+  
   <script type="text/javascript" src="js/abrirTelas.js" ></script>
   <script type="text/javascript" src="js/TELA.js"></script>
+  <script type="text/javascript" src="js/validacao.js"></script>
   
 </body>
 </html>

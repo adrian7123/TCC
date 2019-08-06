@@ -1,20 +1,11 @@
-body {
-	background-color: #152928;
-}
-
 .container {
 	width: 90%;
 	height: auto;
 	margin: 0 auto;
 }
-section {
-    margin: -8px;
-    min-height: auto;
-    background-color: #fff;
-}
 
 section h2, h3, h4, h5, label {
- color: rgb(120,120,120);
+ color: #000;
  margin: 0;
 }
 
@@ -24,4 +15,20 @@ section h2, h3, h4, h5, label {
   	
 input[type="checkbox"] {
 	margin-left: 5px;
+}
+
+#nomes {
+	visibility: hidden;
+}
+
+#emails {
+	visibility: hidden;
+}
+
+#senhas {
+	visibility: hidden;
+}
+
+#termos {
+	visibility: hidden;
 }

@@ -1,51 +1,74 @@
+*{
+	/*border: 2px solid white;*/
+}
+section {
+	background-image:url("../../img/modelo.jpg");
+	background-repeat:no-repeat;
+	background-size: 100%;
+	
+}
 
-  body {
-    background-size: auto cover ;
-    background-image: url(../../img/modelo.jpg);
-    background-repeat: no-repeat;
-    background-color: #152928;
+header {
+	position:absolute;
+	background-color: rgba(21, 41, 40, 0.9);
+	top:0;
+	left:0;
+	padding-right:10px;
+	padding-top: 8px;
+	width: 100%;
+	height: 66px;
+}
+
+.container {
+	margin-top: 95px;
+
+//	height: 340px;
+	/*border: 2px solid white;*/
+}
+
+.container h2 {
+	font-size: 25pt;
+}
+
+@media screen and (max-width: 550px){
+	section {
+		background-size: cover;
+	}
+	
+	header {
+		height: 55px;
+		padding-left: 3px;
+		
+	}
+	
+	.container {
+		width: 98.9%;
+		margin: 0 auto;
+		margin-top: 33px;
+		height: 440px;
+	}
+	
+	.container h2 {
+		margin: 0;
+	}
+	
+	.btn {
+		margin-right: 20px;
+	}
+	
+/*	.container *, .container{
+		border: 2px solid white;
+	} */
+	
+	body {
+		background-size: auto;
+	}
+}
+
+
+
   
-    display: flex;
-    flex-direction: column;
-    align-items: space-between;
-  }
-  
-  header {
-    height: 60px;
-    width: 100%;
-    /*background-color: rgba(69, 138, 121, 0.7);*/
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 18px;
-  }
-  
-  header a {
-    font-size: 17pt;
-  }
-  
-  header .icon, footer .icon {
-    margin: 0 30px;
-  }
-  
-  header div, footer div {
-    display: flex;
-   
-  }
-  
-  .container {
-    height: 390px;
-    /* border: 2px solid white; */
-    margin: 3px auto;
-    width: 98%;
-    display: grid;
-    align-items: center;
-  }
-  
-  .container h2 {
-    text-align: justify;
-    margin-left: 40px;
-  
-  }
+ 
 
 
   

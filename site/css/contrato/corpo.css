@@ -1,0 +1,12 @@
+.contrato h1, h2, h3, h4, label{
+	color: #000;
+}
+
+.contrato:hover {
+	background-color: #fff;
+}
+
+footer p{
+	color: #fff;
+	margin-top: 5px;
+}

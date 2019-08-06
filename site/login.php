@@ -1,4 +1,8 @@
-<html lang="pt-br" dir="ltr">
+<?php
+	include "php/conexao.php";
+
+?>
+<html lang="pt-br">
 <head>
   <meta charset="utf-8">
   <title>Cadastro - Artem</title>      <!-- -->
@@ -10,13 +14,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   
-  <link rel="stylesheet"  href="css/estilo.css">
-  <link rel="stylesheet" href="css/login/corpo.css">
-  
-    <link rel="stylesheet" href="css/screen.css"  >
+  <link rel="stylesheet" href="css/estilo.css">
+  <link rel="stylesheet" href="css/login/corpo.css">  
+  <link rel="stylesheet" href="css/screen.css"  >
   
   <style type="text/css">
-  	
+  	form a {
+  		margin-left: 13px;
+  	}
   </style>
 </head>
 <body>
@@ -31,7 +36,7 @@
     	
     	<div class="linkBox">
     	    <div></div>
-        	<a  href="Cadastro.html">Cadastrar-se</a>
+        	<a  href="Cadastro.php">Cadastrar-se</a>
     	</div>	
     	
     </header>
@@ -39,7 +44,7 @@
     <section class="main" >
     <div class="container">
     	<form action="" method="post">
-   			<h1>Entrar</h1>
+   			<h1 class="gray">Entrar</h1>
     		<h3>Digite seus dados para acessar sua conta.</h3>
     	
     		<input class="inputGrande"  type="email" placeholder="Email" >
@@ -50,10 +55,10 @@
     		
     		<br>
     		
-    		<a class="textBlue"  href="esqueceuSenha.html" >Esqueceu a senha? </a>
+    		<a class="textBlue small"  href="esqueceuSenha.php" >Esqueceu a senha? </a>
     		<br><br>
     	
-    		<input class="btn largeY blue" type="submit" value="Entrar">
+    		<input class="btn large blue" type="submit" value="Entrar">
    		  </form>
     
    		 </div>

@@ -1,3 +1,8 @@
+<?php
+	include "php/conexao.php";
+
+?>
+
 <html lang="pt-br" dir="ltr">
 <head>
   <meta charset="utf-8">
@@ -13,20 +18,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   
-  <link rel="stylesheet"  href="css/evento.css" >
+  <link rel="stylesheet" href="css/contrato.css" >
   <link rel="stylesheet" href="css/estilo.css" >
-  <link rel="stylesheet" href="css/main/corpo.css">
-  
+  <link rel="stylesheet" href="css/main/corpo.css">  
   <link rel="stylesheet" href="css/screen.css"  >
+  <link rel="stylesheet" href="css/NAV.css" >
   
   <style type="text/css">
-  	.btn {
-  		margin-left: 253px;
-  	}
-  	
-  	input[type="checkbox"] {
-  		margin-left: 5px;
-  	}
   
   </style>
 </head>
@@ -42,28 +40,6 @@
     	
     	<div class="linkBox">
     	    <div></div>
-        	<a  href="configuracao.html">Configurações</a>
+        	<a  href="configuracaoConta.php">Configurações</a>
     	</div>	
     </header>
-    
-    <div class="navBar" >
-    	<label></label>
-    </div>
-	
-    
-    <div class="container">
-    	<div class="evento" ></div>
-    	<div class="evento" ></div>
-    	<div class="evento" ></div>
-    </div>
-   		 
-   
-    
-   <footer>
-   
-   </footer>
-  
-  <script src="js/abrirTelas.js" ></script>
-  
-</body>
-</html>

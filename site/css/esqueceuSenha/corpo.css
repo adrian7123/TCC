@@ -1,0 +1,24 @@
+.container h1, .container p {
+	color: #000;
+}
+
+.container h1 {
+	font-size: 30pt;
+	font-style: italic;
+}
+
+
+.container {
+	display: flex;
+	justify-content: space-around;
+	height: 400px;
+}
+
+.esquerda {
+
+}
+
+.direita {
+	align-self: flex-end;
+	margin-bottom: 20px;
+}
